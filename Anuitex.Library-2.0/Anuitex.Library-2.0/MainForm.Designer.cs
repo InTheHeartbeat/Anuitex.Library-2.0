@@ -1,6 +1,6 @@
-﻿namespace Anuitex.Library_2._0
+﻿namespace Anuitex.Library
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -128,8 +128,7 @@
             this.toXmlToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("toXmlToolStripMenuItem.Image")));
             this.toXmlToolStripMenuItem.Name = "toXmlToolStripMenuItem";
             this.toXmlToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.toXmlToolStripMenuItem.Text = "In Xml";
-            this.toXmlToolStripMenuItem.Click += new System.EventHandler(this.toXmlToolStripMenuItem_Click);
+            this.toXmlToolStripMenuItem.Text = "In Xml";            
             // 
             // toToolStripMenuItem
             // 
@@ -256,7 +255,7 @@
             this.toolStripComboBoxCurrentType.Name = "toolStripComboBoxCurrentType";
             this.toolStripComboBoxCurrentType.Size = new System.Drawing.Size(121, 27);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -268,9 +267,9 @@
             this.MaximumSize = new System.Drawing.Size(800, 500);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(800, 500);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Form1";
+            this.Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

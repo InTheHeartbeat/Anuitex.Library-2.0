@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anuitex.Library-2.0", "Anuitex.Library-2.0\Anuitex.Library-2.0.csproj", "{99128C7A-264D-47DC-B6ED-5074C7EC2A43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anuitex.Library", "Anuitex.Library-2.0\Anuitex.Library.csproj", "{99128C7A-264D-47DC-B6ED-5074C7EC2A43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
