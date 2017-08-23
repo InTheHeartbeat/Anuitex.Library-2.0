@@ -48,9 +48,9 @@
             this.sellSelectedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonSell = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButtonEdit = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonRemove = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripComboBoxCurrentType = new System.Windows.Forms.ToolStripComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -103,14 +103,14 @@
             // 
             this.fromXMLToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fromXMLToolStripMenuItem.Image")));
             this.fromXMLToolStripMenuItem.Name = "fromXMLToolStripMenuItem";
-            this.fromXMLToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fromXMLToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.fromXMLToolStripMenuItem.Text = "From Xml";
             // 
             // fromRawToolStripMenuItem
             // 
             this.fromRawToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fromRawToolStripMenuItem.Image")));
             this.fromRawToolStripMenuItem.Name = "fromRawToolStripMenuItem";
-            this.fromRawToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fromRawToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.fromRawToolStripMenuItem.Text = "From Raw";
             // 
             // exportToolStripMenuItem
@@ -127,14 +127,14 @@
             // 
             this.toXmlToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("toXmlToolStripMenuItem.Image")));
             this.toXmlToolStripMenuItem.Name = "toXmlToolStripMenuItem";
-            this.toXmlToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.toXmlToolStripMenuItem.Text = "In Xml";            
+            this.toXmlToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.toXmlToolStripMenuItem.Text = "In Xml";
             // 
             // toToolStripMenuItem
             // 
             this.toToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("toToolStripMenuItem.Image")));
             this.toToolStripMenuItem.Name = "toToolStripMenuItem";
-            this.toToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.toToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.toToolStripMenuItem.Text = "In Raw";
             // 
             // toolStripSeparator1
@@ -148,6 +148,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // operationsToolStripMenuItem
             // 
@@ -163,21 +164,21 @@
             // 
             this.addToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addToolStripMenuItem.Image")));
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.addToolStripMenuItem.Text = "Add";
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("removeToolStripMenuItem.Image")));
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.removeToolStripMenuItem.Text = "Remove";
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("editToolStripMenuItem.Image")));
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // sellingToolStripMenuItem
@@ -192,7 +193,7 @@
             // 
             this.sellSelectedToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sellSelectedToolStripMenuItem.Image")));
             this.sellSelectedToolStripMenuItem.Name = "sellSelectedToolStripMenuItem";
-            this.sellSelectedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sellSelectedToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.sellSelectedToolStripMenuItem.Text = "Sell selected";
             // 
             // toolStrip1
@@ -222,6 +223,11 @@
             this.toolStripButtonSell.Text = "toolStripButton1";
             this.toolStripButtonSell.ToolTipText = "Sell";
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
+            // 
             // toolStripButtonEdit
             // 
             this.toolStripButtonEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -239,11 +245,6 @@
             this.toolStripButtonRemove.Name = "toolStripButtonRemove";
             this.toolStripButtonRemove.Size = new System.Drawing.Size(24, 24);
             this.toolStripButtonRemove.Text = "Remove";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripSeparator3
             // 
